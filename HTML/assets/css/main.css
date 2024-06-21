@@ -25,7 +25,7 @@
 :root{
     --purple: #725f47;
     --black: #ffff;
-    --white: #b9ae6e;
+    --white: #867f58;
     --grey: #91917a;
 }
 
@@ -227,7 +227,7 @@ header #menu-btn:hover{
 /*--------------------- 4- Home Area CSS (Start) ---------------------*/
 .home{
     padding: 0rem 5%;
-    background-color: #d1d39e;
+    background-color: #c2c4a2;
     min-height: 100vh;
 }
 
