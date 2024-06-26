@@ -898,8 +898,8 @@ header #menu-btn:hover{
 }
 
 .blog-item{
-    background-color: #222;
-    border: 0.1rem solid rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border: 0.1rem solid var(--purple);
     border-radius: 0.5rem;
     overflow: hidden;
 }
