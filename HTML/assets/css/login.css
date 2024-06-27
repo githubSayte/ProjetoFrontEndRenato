@@ -4,11 +4,11 @@
 :root{
     --light-pink:#e760b0;
     --dark-pink:#ff0099;
-    --orange-color: #f6961f;
+    --orange-color: blue;
     --orange2-color:#ff843f;
     --white-color:#ffffff;
     --darkiest-color: #792100;
-    --darkless-color: #ffa03a;
+    --darkless-color: red;
 }
 
 * {
