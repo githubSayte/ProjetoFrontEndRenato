@@ -9,8 +9,11 @@
     <!-- Title -->
     <title>Barbearia Estética</title>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     <!-- Font-Awesome CSS -->
     <link rel="stylesheet" href="assets/vendors/font-awesome/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.0/css/all.min.css" />
 
     <!-- Swiper CSS -->
     <link rel="stylesheet" href="assets/vendors/swiper/swiper.css" />
@@ -21,6 +24,43 @@
     <!-- Custom Stylesheets -->
     <link rel="stylesheet"  href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
+
+    <style>
+        .scissors {
+            position: relative;
+            width: 64px;
+            height: 64px;
+        }
+
+        .scissors .blade {
+            position: absolute;
+            width: 50%;
+            height: 6px;
+            background: #000;
+            top: 50%;
+            left: 50%;
+            transform-origin: left center;
+            transform: rotate(0deg);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .scissors .blade-1 {
+            transform-origin: left center;
+        }
+
+        .scissors .blade-2 {
+            transform-origin: left center;
+            transform: rotate(180deg);
+        }
+
+        .scissors:hover .blade-1 {
+            transform: rotate(30deg);
+        }
+
+        .scissors:hover .blade-2 {
+            transform: rotate(150deg);
+        }
+    </style>
 
 </head>
 <body>
@@ -295,82 +335,83 @@
     <section class="service" id="service">
 
         <div class="heading">
-            <h2>Nossos <span>Serviços</span></h2>
+            <h2>Nossos <span>Serviços</span></h2>   
         </div>
 
         <div class="box-container">
 
             <div class="service-item">
-                <i class="fas fa-code"></i>
+                <i class="fas fa-thumbs-up"></i>
                 <h3>Designer de cabelos masculino: 
                 <br> Cortes e penteados</h3>
                 <p>
-                Elevamos o estilo masculino a um novo patamar, 
-                cortes e penteados que realçam sua individualidade. 
-                nossos profissionais criam looks únicos que refletem sua personalidade. 
-                Transforme seu visual com cortes e penteados exclusivos, 
+                Elevamos o seu estilo a um novo patamar, <br>
+                seu visual com cortes e penteados exclusivos, <br>
+                Modernos ou clássicos, nossos cortes são adaptados ao estilo pessoal de cada cliente. <br>
+                nossos profissionais altamente qualificados criam looks exclusivos e recriam tendências <br>
                 pensados para destacar sua personalidade e estilo único.
             </p>
             </div>
 <br>
             <div class="service-item">
-                <i class="fas fa-paint-brush"></i>
+                <i class="fas fa-thumbs-up"></i>
                 <h3>Corte de Cabelo padrão: 
                 <br>Na máquina ou tesoura</h3>
                 <p>
-                    Modernos ou clássicos, nossos cortes são adaptados ao estilo pessoal de cada cliente. 
-                    Rápidos, eficientes e de alta qualidade, mesmo para quem tem pouco tempo. 
-                    Ideal para quem busca um visual impecável. 
-                    Nossos barbeiros são especialistas em diversas técnicas, garantindo um corte perfeito. 
-                    Oferecemos um acabamento memorável que combina praticidade e sofisticação.
+                
+                Rápidos, eficientes e de alta qualidade, <br>
+                Ideal para quem busca um visual impecável. <br>
+                Nossos barbeiros são especialistas em diversas técnicas, garantindo um corte perfeito. <br> 
+                Oferecemos um acabamento memorável que combina praticidade e sofisticação.
                 </p>
             </div>
 
             <div class="service-item">
-                <i class="fas fa-camera"></i>
+                <i class="fas fa-thumbs-up"></i>
                 <h3>Coloração de Cabelo: 
                 <br>com estilo ou padrão</h3>
                 <p>
-                    Transforme seu visual com nossa coloração adaptada ao seu estilo pessoal. 
-                    Seja ousado ou clássico, oferecemos cores vibrantes e naturais, perfeitas para qualquer ocasião.
-                    Com técnicas avançadas e resultados impecáveis, garantimos um visual marcante e sofisticado. 
-                    Ideal para quem busca uma mudança radical ou um look tradicional, 
-                    confie nos nossos especialistas para um acabamento duradouro e deslumbrante.
+                nosso acabamento é duradouro e deslumbrante.<br>
+                Transforme seu visual com nossa coloração adaptada ao seu estilo pessoal. <br>
+                oferecemos com excelência cores vibrantes e naturais, perfeitas para qualquer ocasião. 
+                Com técnicas avançadas e resultados impecáveis, <br>
+                garantimos um visual marcante e sofisticado. <br>
+                
                 </p>
             </div>
 
             <div class="service-item">
-                <i class="fas fa-bullhorn"></i>
-                <h3>Barba e Bigode: 
-                <br>corte, realce e tonalisação,</h3>
+                <i class="fas fa-thumbs-up"></i>
+                <h3>Estilização da Barba e Bigode: 
+                <br>corte, realce e coloração,</h3>
                 <p>
-                    Aprimore sua aparência com nosso serviço completo de barba e bigode.
-                    Do corte à tonalização, proporcionamos um visual impecável e marcante. 
-                    Com técnicas especializadas e produtos de qualidade, 
-                    garantimos um acabamento que realça sua masculinidade com estilo e sofisticação.
+                Aprimore sua aparência com nosso serviço completo de barba e bigode. <br>
+                Do corte à tonalização, proporcionamos um visual impecável e marcante. <br>
+                Com técnicas especializadas e produtos de qualidade, <br>
+                garantimos um acabamento que realça sua masculinidade com estilo e sofisticação.
                 </p>
             </div>
 
             <div class="service-item">
-                <i class="far fa-file-video"></i>
-                <h3>Barba Expressa: 
-                <br>na máquina e na navalha,</h3>
+                <i class="fas fa-thumbs-up"></i>
+                <h3>Corte super rápido da Barba no modo Expresso: 
+                <br>Na máquina e navalha,</h3>
                 <p>
-                    Para quem busca praticidade e precisão, oferecemos o serviço de barba expressa. 
-                    Com cortes detalhados na máquina e acabamento preciso na navalha, 
-                    proporcionamos um visual definido e elegante em pouco tempo. 
-                    Ideal para quem valoriza um cuidado rápido sem abrir mão da qualidade.
+                Para quem busca praticidade e precisão, oferecemos o serviço de barba expressa. <br>
+                Com cortes detalhados na máquina e acabamento preciso na navalha, <br>
+                proporcionamos um visual definido e elegante em pouco tempo. <br>
+                Ideal para quem valoriza um cuidado rápido sem abrir mão da qualidade.     
                 </p>
             </div>
 
             <div class="service-item">
-                <i class="fas fa-search-dollar"></i>
+                <i class="fas fa-thumbs-up"></i>
                 <h3>Pacote de Manutenção Mensal: 
                 <br>o cliente vem toda semana, mas só paga uma vez ao mês!</h3>
                 <p>
-                    Economize tempo e dinheiro com nosso pacote de manutenção mensal.
-                    Visite-nos toda semana para cuidar da sua aparência e pague apenas uma vez ao mês.
-                    Com tratamentos personalizados e atendimento de excelência, 
+                    Economize tempo e dinheiro com nosso pacote de manutenção mensal. <br>
+                    Visite-nos toda semana para cuidar da sua aparência e pague apenas uma vez ao mês. <br>
+                    Com tratamentos personalizados e atendimento de excelência, <br>
                     garantimos que você esteja sempre impecável, sem preocupações extras.
                 </p>
             </div>
@@ -442,7 +483,7 @@
                 </div>
     
                 <div class="portfolio-item image photography">
-                    <img src="assets/images/Portfolio/portfolio-6.png" alt="Portfolio-Image" />
+                    <img src="assets/images/Portfolio/portfolio6.png" alt="Portfolio-Image" />
                     <div class="content">
                         <h4>Pacote de Manutenção Mensal</h4>
                         <p>o cliente vem toda semana, mas só paga uma vez ao mês!</p>
