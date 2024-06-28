@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 
 :root{
-    --light-pink:#e760b0;
-    --dark-pink:#ff0099;
-    --orange-color: blue;
-    --orange2-color:#ff843f;
-    --white-color:#ffffff;
-    --darkiest-color: #792100;
-    --darkless-color: red;
+    --light-pink:#ffff;
+    --dark-pink:#ffff;
+    --orange-color: #725f47;
+    --orange2-color:#ffffff;
+    --white-color:#c2c4a2
+    --darkiest-color: #867f58;
+    --darkless-color: rgb(250, 250, 249);
 }
 
 * {

@@ -45,6 +45,8 @@
   	        transition: all 0.2s linear;
 }
 
+
+
 *::selection{
     color: var(--white);
     background-color: var(--purple);
@@ -91,7 +93,6 @@ section{
 }
 
 /*--------------------- 0- Global CSS (End) ---------------------*/
-
 
 
 /*--------------------- 1- Heading CSS (Start) ---------------------*/
